@@ -1,12 +1,16 @@
+
+<img width="960" alt="Screenshot 2024-12-24 033105" src="https://github.com/user-attachments/assets/567f6a16-2cfa-4297-9bb1-9d08e50b4042" />
+
 <h1>Data Used</h1>
 Data - HR Data with over 22000 rows from the year 2000 to 2020.
 
 Data Cleaning & Analysis - MySQL Workbench
 
-Data Visualization - PowerBI
+<h1>Data Visualization</h1> - PowerBI
 
 
 Questions
+<br>
 What is the gender breakdown of employees in the company?
 What is the race/ethnicity breakdown of employees in the company?
 What is the age distribution of employees in the company?
@@ -20,6 +24,7 @@ How has the company's employee count changed over time based on hire and term da
 What is the tenure distribution for each department?
 
 Summary of Findings
+<br>
 There are more male employees
 White race is the most dominant while Native Hawaiian and American Indian are the least dominant.
 The youngest employee is 20 years old and the oldest is 57 years old
@@ -34,5 +39,6 @@ The average tenure for each department is about 8 years with Legal and Auditing 
 
 
 Limitations
+<br>
 Some records had negative ages and these were excluded during querying(967 records). Ages used were 18 years and above.
 Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
